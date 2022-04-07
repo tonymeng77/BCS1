@@ -40,6 +40,7 @@ namespace BCS
             //LB_BCDisplay.ItemsSource = bcsList;
             //LB_BCDisplay.DisplayMemberPath = bcsList.Count.ToString();
             LB_BCDisplay.DataContext = bcs;
+            Debug.WriteLine("test and test again");
         }
 
         private void OnStartButtonClick(object sender, RoutedEventArgs e)
